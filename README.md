@@ -27,7 +27,7 @@
 
 6. Configure the project (`ApplicationConfig.java`, `customLogin.xhtml`, `Login.java`, `Logout.java`) to use a Custom Form Authentication mechanism.
 
-1. Configure the project (`ApplicationConfig.java`) to use a LDAP identity store to the Windows 2019 Server VM.
+1. Configure the project (`ApplicationConfig.java`) to use a LDAP identity store to the Windows 2022 Server VM.
 
 1. Modify the JSF layout file `/src/main/webapp/WEB-INF/jsf-templates/layout.xhml` with a link to login and a link logout.
 
