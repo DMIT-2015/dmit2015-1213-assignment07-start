@@ -11,13 +11,13 @@ import jakarta.faces.annotation.FacesConfig;
 
 @DataSourceDefinitions({
 
-		// TODO: Change the value for yourNaitUsername and yourStudentID
+		// TODO: Change the value for yourNaitUsername and yourNAITStudentID
 		@DataSourceDefinition(
 			name="java:app/datasources/mssqlDS",
 			className="com.microsoft.sqlserver.jdbc.SQLServerDataSource",
 			url="jdbc:sqlserver://DMIT-Capstone1.ad.sast.ca;databaseName=DMIT2015_1213_E01_yourNaitUsername;TrustServerCertificate=true",
 			user="yourNaitUsername",
-			password="RemotePassword.yourNaitUsername"),
+			password="RemotePassword.yourNAITStudentID"),
 
 //			name="java:app/datasources/mssqlDS",
 //			className="com.microsoft.sqlserver.jdbc.SQLServerDataSource",
